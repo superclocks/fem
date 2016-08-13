@@ -1,0 +1,92 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: check one element - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP17.tmp" with contents
+[
+/check:bounds /compile_only /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"E:\finite and boundary element\program of finite element\shell_solid_fluid\shell_solid_fluid_1\solver\gss\solver.for"
+"E:\finite and boundary element\program of finite element\shell_solid_fluid\shell_solid_fluid_1\featp\REORDER_SOLID_NODE_NUM.FOR"
+"E:\finite and boundary element\program of finite element\shell_solid_fluid\shell_solid_fluid_1\featp\MEMBRANE_STIFF_TRI(0&1)_II.FOR"
+"E:\finite and boundary element\program of finite element\shell_solid_fluid\shell_solid_fluid_1\featp\FLUID30_8_I.FOR"
+"E:\finite and boundary element\program of finite element\shell_solid_fluid\shell_solid_fluid_1\featp\ELEMENT_MATRIX_SOLID.FOR"
+"E:\finite and boundary element\program of finite element\shell_solid_fluid\shell_solid_fluid_1\featp\ASSEM_FLUID30.FOR"
+]
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib GSS_DLL_6.lib /nologo /stack:0xffffffff,0xffffffff /subsystem:console /incremental:no /pdb:"Debug/check one element.pdb" /debug /machine:I386 /out:"Debug/check one element.exe" /pdbtype:sept 
+".\Debug\ASSEM(3).OBJ"
+".\Debug\ASSEM_FLUID30.OBJ"
+".\Debug\ASSEM_SOLID45.OBJ"
+".\Debug\BEND_MASS_TRI_I.OBJ"
+".\Debug\BEND_MASS_TRI_II.OBJ"
+".\Debug\BEND_VD.OBJ"
+".\Debug\CACUL_OUT_NORMAL_QUAD.OBJ"
+".\Debug\CACUL_OUT_NORMAL_TRI.OBJ"
+".\Debug\CHECK_SHAPE.OBJ"
+".\Debug\DKT_I.OBJ"
+".\Debug\DKT_II.OBJ"
+".\Debug\ELEMENT_JACOBI(3_1_7).OBJ"
+".\Debug\ELEMENT_MATRIX_QUAD.OBJ"
+".\Debug\ELEMENT_MATRIX_SOLID.OBJ"
+".\Debug\ELEMENT_MATRIX_TRI.OBJ"
+".\Debug\ELEMENT_VB(3_1_8).OBJ"
+".\Debug\ELEMENT_VD(3_1_6).OBJ"
+".\Debug\FEATP.OBJ"
+".\Debug\FLUID30_6_I.OBJ"
+".\Debug\FLUID30_6_II.OBJ"
+".\Debug\FLUID30_8_I.OBJ"
+".\Debug\FLUID30_8_II.OBJ"
+".\Debug\GAUSS_INTEGRATION(3_1_1).OBJ"
+".\Debug\gss_6_demo.obj"
+".\Debug\MEMBRANE_I.OBJ"
+".\Debug\MEMBRANE_II.OBJ"
+".\Debug\MEMBRANE_MASS.OBJ"
+".\Debug\MEMBRANE_STIFF_QUAD(0)_I.OBJ"
+".\Debug\MEMBRANE_STIFF_QUAD(0)_II.OBJ"
+".\Debug\MEMBRANE_STIFF_QUAD(1)_I.OBJ"
+".\Debug\MEMBRANE_STIFF_QUAD(1)_II.OBJ"
+".\Debug\MEMBRANE_STIFF_QUAD(2)_I.OBJ"
+".\Debug\MEMBRANE_STIFF_QUAD(2)_II.OBJ"
+".\Debug\MEMBRANE_STIFF_TRI(0&1)_I.OBJ"
+".\Debug\MEMBRANE_STIFF_TRI(0&1)_II.OBJ"
+".\Debug\MEMBRANE_STIFF_TRI(2)_I.OBJ"
+".\Debug\MEMBRANE_STIFF_TRI(2)_II.OBJ"
+".\Debug\MEMBRANE_VD.OBJ"
+".\Debug\QUAD_COUP_I.OBJ"
+".\Debug\QUAD_COUP_II.OBJ"
+".\Debug\QUAD_TRANS.OBJ"
+".\Debug\REORDER_SOLID_NODE_NUM.OBJ"
+".\Debug\SHAPE_QUADRANGLE_4.OBJ"
+".\Debug\SOLID(0)_I.OBJ"
+".\Debug\SOLID(0)_II.OBJ"
+".\Debug\SOLID(1)_I.OBJ"
+".\Debug\SOLID(1)_II.OBJ"
+".\Debug\SOLID_TRANS.OBJ"
+".\Debug\solver.obj"
+".\Debug\TRI_COUP_I.OBJ"
+".\Debug\TRI_COUP_II.OBJ"
+".\Debug\TRI_TRANS.OBJ"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP18.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+E:\finite and boundary element\program of finite element\shell_solid_fluid\shell_solid_fluid_1\solver\gss\solver.for
+E:\finite and boundary element\program of finite element\shell_solid_fluid\shell_solid_fluid_1\featp\REORDER_SOLID_NODE_NUM.FOR
+E:\finite and boundary element\program of finite element\shell_solid_fluid\shell_solid_fluid_1\featp\MEMBRANE_STIFF_TRI(0&1)_II.FOR
+E:\finite and boundary element\program of finite element\shell_solid_fluid\shell_solid_fluid_1\featp\FLUID30_8_I.FOR
+E:\finite and boundary element\program of finite element\shell_solid_fluid\shell_solid_fluid_1\featp\ELEMENT_MATRIX_SOLID.FOR
+E:\finite and boundary element\program of finite element\shell_solid_fluid\shell_solid_fluid_1\featp\ASSEM_FLUID30.FOR
+Linking...
+
+
+
+<h3>Results</h3>
+check one element.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

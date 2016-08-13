@@ -1,0 +1,31 @@
+       
+      SUBROUTINE  BEND_MASS_TRI_II(VX,VM,VMAE)
+	IMPLICIT  REAL* 8 (A-H, O-Z)
+      COMMON/COM1/MND, NUMEL, NUMPT, MBAND, NMATI
+      COMMON/COM2/NF, NFSTR, MSOLV, MPROB, MTYPE, NVA
+      COMMON/COM3/MND2 , NUMPT2
+      COMMON/ELEM/NODE, INTX, INTY
+              
+	DIMENSION  VX(3,3),BM(9,9),VM(9,9),VMAE(4),AB(3)
+      BM(:,:)=0.0
+	VM(:,:)=0.0
+	SA=0.5*(VX(2,1)*VX(3,2)-VX(3,1)*VX(2,2)-VX(1,1)*VX(3,2)+
+     $   VX(3,1)*VX(1,2)+VX(1,1)*VX(2,2)-VX(2,1)*VX(1,2))
+	X=2.0/3.0
+	Y=1.0/6.0
+	Z=1.0/6.0
+	CALL BEND_MASS_TRI_I(VX,BM,VMAE,X,Y,Z)
+	VM(:,:)=VM(:,:)+(1.0/3.0)*BM(:,:)*VMAE(3)*VMAE(4)*ABS(SA)
+	X=1.0/6.0
+	Y=2.0/3.0
+	Z=1.0/6.0
+	CALL BEND_MASS_TRI_I(VX,BM,VMAE,X,Y,Z)
+	VM(:,:)=VM(:,:)+(1.0/3.0)*BM(:,:)*VMAE(3)*VMAE(4)*ABS(SA)
+	X=1.0/6.0
+	Y=1.0/6.0
+	Z=2.0/3.0
+	CALL BEND_MASS_TRI_I(VX,BM,VMAE,X,Y,Z)
+	VM(:,:)=VM(:,:)+(1.0/3.0)*BM(:,:)*VMAE(3)*VMAE(4)*ABS(SA)
+      
+	RETURN
+	END

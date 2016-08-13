@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GSP_TEST_INFO>
+<DECLARE>
+	<APP>GSS 2.0 demo</APP>
+	<COPYRIGHT>Copyright (c) 2005-present by YingShi Chen.	All Rights Reserved.</COPYRIGHT>
+	<MAIL>gsp@grusoft.com</MAIL>
+</DECLARE>
+
+<TEST>
+	<BASIC>
+		<STATUS>0</STATUS>
+		<ROW>6300</ROW>
+		<COL>6300</COL>
+		<NNZ>278967</NNZ>
+		<SYM_ORIGIN>0.999498</SYM_ORIGIN>
+		<SYM>0.999498</SYM>
+		<rED_ORIGIN>0</rED_ORIGIN>
+		<rZD>0</rZD>
+		<MAX>7.31646e+010</MAX>
+		<MIN>3.80167e-031</MIN>
+	</BASIC>
+	<MEMORY>
+		<NZLU_SYM>2.64255e+006</NZLU_SYM>
+		<NZLU>2.64255e+006</NZLU>
+		<MEM_SYM>27.8505</MEM_SYM>
+		<MEM>25.4412</MEM>
+		<PEAK_SYM>30.8453</PEAK_SYM>
+		<PEAK>30.8453</PEAK>
+	</MEMORY>
+	<SYMBOL>
+		<maxLEV>0</maxLEV>
+		<DBs>0</DBs>
+		<NODEs>507</NODEs>
+		<MAX-D>0</MAX-D>
+		<SOLID>0</SOLID>
+		<T_SYMFAC>0</T_SYMFAC>
+	</SYMBOL>
+	<RUN>
+		<ERR>0</ERR>
+		<COND>225.053</COND>
+		<GROWTH>0</GROWTH>
+		<FAIL_P>0</FAIL_P>
+		<T_SYM>0</T_SYM>
+		<T_NUM>0</T_NUM>
+		<T_SOL>0</T_SOL>
+		<T_CON>0</T_CON>
+		<T_X>0</T_X>
+		<FLOPS>2.31766e+009</FLOPS>
+		<SPEED>1.#INFM</SPEED>
+	</RUN>
+	<CONTROL>
+		<ARCH>0</ARCH>
+		<stra>10</stra>
+		<straS>2</straS>
+		<straP>4</straP>
+		<straF>1</straF>
+		<BLK>16</BLK>
+		<rTVS>0.1</rTVS>
+		<RELAX>0.01</RELAX>
+	</CONTROL>
+</TEST>
+
+</GSP_TEST_INFO>
